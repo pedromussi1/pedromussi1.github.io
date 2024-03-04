@@ -1,3 +1,10 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Repository</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
 <h1>Hello, I am Pedro! <br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Cybersecurity Professional</a> </h1>
 
 <h2>👨‍💻 Gaming Projects:</h2>
