@@ -5,7 +5,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<h1>Hello, I am Pedro! <br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Cybersecurity Professional</a> </h1>
+<h1>Hello, I am Pedro! <br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Computer Science Professional</a> </h1>
 
 <h2>👨‍💻 Gaming Projects:</h2>
 
