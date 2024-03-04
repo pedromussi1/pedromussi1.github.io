@@ -12,6 +12,8 @@
 - <b>Zombie Game</b>
 <p>The player is given a gun and they msut survive the zombie attack. There 3 waves of zombies, each wave is harder than the last, can you kill all the zombies and survive until the end?</p>
 
+[![Video](https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg)](https://www.youtube.com/watch?v=BVd8ceOzIzk)
+
 [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
 
 - <b>PuzzleSolver</b>
