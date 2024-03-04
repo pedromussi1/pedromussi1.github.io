@@ -5,6 +5,7 @@
 - <b>Zombie Game</b>
   - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
 - <b>PuzzleSolver</b>
+<br>
 [![Video](https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg)](https://www.youtube.com/watch?v=wtw1QMQUFRQ)
   - [PuzzleSolver Repository](https://github.com/pedromussi1/PuzzleSolver)
 - <b>TargetChaser</b>
