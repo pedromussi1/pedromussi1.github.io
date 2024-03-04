@@ -10,12 +10,15 @@
 <h2>👨‍💻 Gaming Projects:</h2>
 
 - <b>Zombie Game</b>
-  - [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+
+[Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
 - <b>PuzzleSolver</b>
+
+<p>This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level.</p>
 
 [![Video](https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg)](https://www.youtube.com/watch?v=wtw1QMQUFRQ)
 
-   [PuzzleSolver Repository](https://github.com/pedromussi1/PuzzleSolver)
+[PuzzleSolver Repository](https://github.com/pedromussi1/PuzzleSolver)
 
 - <b>TargetChaser</b>
   - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
