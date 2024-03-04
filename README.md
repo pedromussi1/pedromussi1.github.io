@@ -23,8 +23,8 @@
 [<img align="left" alt="PedroMussi | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="PedroMussi | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-[twitter]: https://twitter.com/pedromussi1
-[gmail]: pedrorodriguesmussi@gmail.com
+[twitter]: https://twitter.com/ph_mussi
+[gmail]: mailto:pedrorodriguesmussi@gmail.com
 [linkedin]: https://www.linkedin.com/in/pedro-mussi-1323071b1/
 
 <!--
