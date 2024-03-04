@@ -14,7 +14,7 @@
 
 [![Video](https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg)](https://www.youtube.com/watch?v=BVd8ceOzIzk)
 
-[ZombieGame Repository](https://github.com/joshmadakor1/Algorithms-Practice)
+[ZombieGame Repository](https://github.com/pedromussi1/ZombieGame)
 
 - <b>PuzzleSolver</b>
 
