@@ -10,8 +10,10 @@
 <h2>👨‍💻 Gaming Projects:</h2>
 
 - <b>Zombie Game</b>
+<p>The player is given a gun and they msut survive the zombie attack. There 3 waves of zombies, each wave is harder than the last, can you kill all the zombies and survive until the end?</p>
 
 [Praciting DS & Algos in Python](https://github.com/joshmadakor1/Algorithms-Practice)
+
 - <b>PuzzleSolver</b>
 
 <p>This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level.</p>
