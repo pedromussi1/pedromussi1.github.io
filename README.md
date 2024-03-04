@@ -7,6 +7,13 @@
 
 <h1>Hello, I am Pedro! <br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Computer Science Professional</a> </h1>
 
+## Contact Details
+
+<!-- * _Website: currently working-->
+* _Github: https://github.com/pedromussi1/_
+* _LinkedIn: https://www.linkedin.com/in/pedro-mussi/_
+* _Email: pedrorodriguesmussi@gmail.com_
+
 <h2>👨‍💻 Gaming Projects:</h2>
 
 - <b>Zombie Game</b>
