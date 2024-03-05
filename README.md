@@ -27,7 +27,7 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 ### ZombieGame
   * **Repository:**  https://github.com/pedromussi1/ZombieGame
   * **Description:** The player is given a gun and they must survive the zombie attack. There 3 waves of zombies, each wave is harder than the last, can you kill all the zombies and survive until the end? This game was designed on Unreal Engine 5, it is a Zombie shooter game. They player has to survive 3 Waves of Zombies by using the revolver they are provided with at the beginning of the game. There are ammo crates they can find around the map to help reload. After killing all zombies, you win the game!
-  * **Tools:**  C++, Blueprints, Unreal Engine
+  * **Tools:**  C++, Blueprints, Unreal Engine 5
 </div>
 
 
@@ -44,6 +44,17 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 </div>
 <hr>
 
+<div>
+<a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ">
+<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+</a>
+
+### TargetChaser
+  * **Repository:**  https://github.com/pedromussi1/PuzzleSolver
+  * **Description:** Hit all targets around the island before the timer goes off! This game was developed on Unreal Engine 5, and it takes inspiration from this YouTube video made by Unreal Sensei: https://www.youtube.com/watch?v=1XjgLKrb4_M. However, it does build on it tremendously, while also using a different environment. The environment used on this game is called "Low Poly Style Deluxe 2: Tropical Environment" by WolfDigitalLLC.
+  * **Tools:**  C++, Blueprints, Unreal Engine 5
+</div>
+<hr>
 
 
 - <b>TargetChaser</b>
