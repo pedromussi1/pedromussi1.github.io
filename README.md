@@ -5,7 +5,15 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
-<h1>Hello, I am Pedro! <br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Computer Science Professional</a> </h1>
+<h1>Pedro Mussi<br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Computer Science Professional</a> </h1>
+
+<p>
+My name is Pedro, and I am a Computer Science professional with a degree from the University of South Florida. Skilled in game development, web development, database management, and 3D modeling. Proficient in coding  languages such as Java, JavaScript, C, C++, Python, C#, HTML, and CSS. 
+    
+I have extensive knowledge in algorithms, operating systems, and cybersecurity with a focus on cryptographic algorithms. I have a proven track record of independent research and study in cybersecurity. What I am truly passionate about is game development, and I have become adept at using Unity and Unreal Engine for developing games, and have gained experience with using Blender for asset modeling oin my personal projects. 
+    
+I am quick learner with a strong aptitude for mastering new languages and softwareand am open to exciting opportunities  in the tech industry. 
+</p>
 
 ## Contact Details
 
