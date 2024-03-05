@@ -56,14 +56,19 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 </div>
 <hr>
 
+<div>
+<a href="https://www.youtube.com/watch?v=RmglLZSRwH8">
+<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/RmglLZSRwH8/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+</a>
 
-- <b>TargetChaser</b>
+### UnderThawed
+  * **Repository:**  https://github.com/pedromussi1/PuzzleSolver
+  * **Description:** Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video: https://www.youtube.com/watch?v=AmGSEH7QcDg&t. I made some special additions and changes to my version of the game, to make it play more similarly to the hit game "Overcooked!"
+  * **Tools:**  C#, Blender, Unity3D
+</div>
+<hr>
 
-Details Coming Soon
 
-- <b>Underthawed</b>
-
-Details Coming Soon
 
 
 
