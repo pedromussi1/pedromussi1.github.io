@@ -32,7 +32,9 @@
 [PuzzleSolver Repository](https://github.com/pedromussi1/PuzzleSolver)
 
 - <b>TargetChaser</b>
+
 Details Coming Soon
+
 - <b>Underthawed</b>
 
 Details Coming Soon
