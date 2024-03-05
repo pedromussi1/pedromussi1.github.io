@@ -44,16 +44,7 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 </div>
 <hr>
 
-<p>This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level.</p>
 
-
-<div align="right">
-  <a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ">
-    <img src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="Video">
-  </a>
-</div>
-
-[PuzzleSolver Repository](https://github.com/pedromussi1/PuzzleSolver)
 
 - <b>TargetChaser</b>
 
