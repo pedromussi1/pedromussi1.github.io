@@ -25,7 +25,7 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 </a>
 
 ### ZombieGame
-  * **Repository:**  https://github.com/pedromussi1/ZombieGame
+  * **Repository:**  <a href="https://github.com/pedromussi1/ZombieGame" target="_blank">ZombieGame</a>
   * **Description:** The player is given a gun and they must survive the zombie attack. There 3 waves of zombies, each wave is harder than the last, can you kill all the zombies and survive until the end? This game was designed on Unreal Engine 5, it is a Zombie shooter game. They player has to survive 3 Waves of Zombies by using the revolver they are provided with at the beginning of the game. There are ammo crates they can find around the map to help reload. After killing all zombies, you win the game!
   * **Tools:**  C++, Blueprints, Unreal Engine 5
 </div>
