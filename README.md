@@ -12,7 +12,7 @@ I am quick learner with a strong aptitude for mastering new languages and softwa
 
 ## Contact Details
 
- Github: <a href="https://github.com/pedromussi1/ target'"_blank">https://github.com/pedromussi1/</a>
+* _Github: https://github.com/pedromussi1/_
 * _LinkedIn: https://www.linkedin.com/in/pedro-mussi/_
 * _Email: pedrorodriguesmussi@gmail.com_
 
