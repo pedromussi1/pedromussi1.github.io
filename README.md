@@ -21,6 +21,33 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>👨‍💻 Gaming Projects:</h2>
 
 <div>
+<a href="https://www.youtube.com/watch?v=wSi-ISIEWBs">
+<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wSi-ISIEWBs/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+</a>
+
+### UnderThawed
+  * **Repository:**  https://github.com/pedromussi1/Underthawed
+  * **Description:** Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video: https://www.youtube.com/watch?v=AmGSEH7QcDg&t. I made some special additions and changes to my version of the game, to make it play more similarly to the hit game "Overcooked!"
+  * **Tools:**  C#, Blender, Unity3D
+</div>
+<br>
+<hr>
+
+<div>
+<a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ">
+<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+</a>
+
+### PuzzleSolver
+  * **Repository:**  https://github.com/pedromussi1/PuzzleSolver
+  * **Description:** This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level. This game was developed on Unity3D along with Blender for modelling required assets. It includes tips for helping the player move to the next level and introduces innovative mechanics not usually seen on games of this caliber such as trampoline, shoot tube, Simon color game, and memory card game.
+  * **Tools:**  C#, Blender, Unity3D
+</div>
+<hr>
+
+
+
+<div>
 <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk">
 <img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
 </a>
@@ -32,17 +59,6 @@ _Email: pedrorodriguesmussi@gmail.com_
 </div>
 
 
-<hr>
-<div>
-<a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
-</a>
-
-### PuzzleSolver
-  * **Repository:**  https://github.com/pedromussi1/PuzzleSolver
-  * **Description:** This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level. This game was developed on Unity3D along with Blender for modelling required assets. It includes tips for helping the player move to the next level and introduces innovative mechanics not usually seen on games of this caliber such as trampoline, shoot tube, Simon color game, and memory card game.
-  * **Tools:**  C#, Blender, Unity3D
-</div>
 <hr>
 
 <div>
@@ -57,18 +73,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 </div>
 <hr>
 
-<div>
-<a href="https://www.youtube.com/watch?v=wSi-ISIEWBs">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wSi-ISIEWBs/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
-</a>
 
-### UnderThawed
-  * **Repository:**  https://github.com/pedromussi1/Underthawed
-  * **Description:** Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video: https://www.youtube.com/watch?v=AmGSEH7QcDg&t. I made some special additions and changes to my version of the game, to make it play more similarly to the hit game "Overcooked!"
-  * **Tools:**  C#, Blender, Unity3D
-</div>
-<br>
-<hr>
 
 
 
