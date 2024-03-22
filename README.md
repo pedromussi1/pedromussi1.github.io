@@ -29,6 +29,7 @@ _Email: pedrorodriguesmussi@gmail.com_
   * **Repository:**  https://github.com/pedromussi1/Underthawed
   * **Description:** Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video: https://www.youtube.com/watch?v=AmGSEH7QcDg&t. I made some special additions and changes to my version of the game, to make it play more similarly to the hit game "Overcooked!"
   * **Tools:**  C#, Blender, Unity3D
+  * **Future Developments:**  Develop an online multiplayer option to the game that uses Netcode for Game Objects
 </div>
 <br>
 <hr>
