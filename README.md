@@ -1,6 +1,6 @@
 
 
-<h1>Pedro Mussi<br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/joshmadakor/">Computer Science Professional</a> </h1>
+<h1>Pedro Mussi<br/><a href="https://github.com/pedromussi1">Game Developer</a>, <a href="https://www.linkedin.com/in/pedro-mussi/">Computer Science Professional</a> </h1>
 
 <p>
 My name is Pedro, and I am a Computer Science professional with a Bachelor's degree from the University of South Florida. Skilled in game development, web development, database management, and 3D modeling. Proficient in coding  languages such as Java, JavaScript, C, C++, Python, C#, HTML, and CSS. 
