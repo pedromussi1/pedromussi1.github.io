@@ -21,14 +21,17 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>Fullstack Projects:</h2>
 
 <div>
-<a href="https://github.com/pedromussi1/PernTodo">
-<kbd><img align="right" src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
-</a>
+
 
 ### PernTodo
   * **Repository:**  https://github.com/pedromussi1/PernTodo
   * **Description:** This website was created to showcase my skills as a PERN developer. I designed and implemented the database schemas using PostgreSQL. I develpoed the logic on the server side and APIs using Express.js and Node.js. Created a responsive interface using React. And built a cohesive web application integrating the frontend and backend components.
   * **Tools:**  PostgreSQL, Express.js, React, Node.js, Visual Studio Code.
+
+<a href="https://github.com/pedromussi1/PernTodo">
+<kbd><img align="right" src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
+</a>
+
 </div>
 <br>
 <hr>
