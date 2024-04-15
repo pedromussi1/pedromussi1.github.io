@@ -21,9 +21,9 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>Fullstack Projects:</h2>
 
 <div>
-
-<kbd><img align="right"  src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
-
+<a href="https://github.com/pedromussi1/PernTodo">
+<kbd><img align="right" src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
+</a>
 
 ### PernTodo
   * **Repository:**  https://github.com/pedromussi1/PernTodo
