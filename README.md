@@ -22,7 +22,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/o33BFMI.png" alt="html" style="vertical-align:top; margin:4px">  
+<kbd><img align="right"  src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
 
 
 ### PernTodo
