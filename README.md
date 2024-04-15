@@ -18,6 +18,8 @@ _LinkedIn: https://www.linkedin.com/in/pedro-mussi/_
 
 _Email: pedrorodriguesmussi@gmail.com_
 
+<h2>Fullstack Projects:</h2>
+
 <h2>👨‍💻 Gaming Projects:</h2>
 
 <div>
