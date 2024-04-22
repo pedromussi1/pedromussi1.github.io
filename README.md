@@ -43,7 +43,7 @@ _Email: pedrorodriguesmussi@gmail.com_
   * **Tools:**  PostgreSQL, Express.js, React, Node.js, JSON Web Token, Visual Studio Code.
 
 <a href="https://github.com/pedromussi1/JWT">
-<kbd><img align="right" src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
+<kbd><img align="right" src="https://i.imgur.com/ZTNjSuP.png?1" alt="html" style="vertical-align:top; margin:4px">  </kbd>
 </a>
 
 </div>
