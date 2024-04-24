@@ -21,7 +21,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>Fullstack Projects:</h2>
 
 <div>
-<a href="https://github.com/pedromussi1/PernTodo">
+<a href="https://www.youtube.com/watch?v=9N2W9QBaXfw">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/o33BFMI.png?1" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
@@ -34,7 +34,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <br>
 <hr>
 
-<a href="https://github.com/pedromussi1/JWT">
+<a href="https://www.youtube.com/watch?v=lOLUN-cHrbg">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/ZTNjSuP.png?1" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
