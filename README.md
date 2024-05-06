@@ -35,7 +35,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 <a href="https://www.youtube.com/watch?v=lOLUN-cHrbg">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/ZTNjSuP.png?1" alt="html" style="vertical-align:top; margin:4px">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/HzMXXxl.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
 ### JWT with PERN
@@ -55,7 +55,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=wSi-ISIEWBs">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wSi-ISIEWBs/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/x4hraPJ.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### UnderThawed
@@ -69,7 +69,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/GBOefFK.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### PuzzleSolver
@@ -83,7 +83,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/1cXTZlS.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### ZombieGame
@@ -107,36 +107,12 @@ _Email: pedrorodriguesmussi@gmail.com_
 </div>
 <hr>
 
-
-
-
-
-
-
-
 <h2> 🤳 Connect with me:</h2>
 
 [<img align="left" alt="PedroMussi | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/gmail.svg" />][gmail]
-[<img align="left" alt="PedroMussi | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
+
 [<img align="left" alt="PedroMussi | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
-[twitter]: https://twitter.com/ph_mussi
 [gmail]: mailto:pedrorodriguesmussi@gmail.com
 [linkedin]: https://www.linkedin.com/in/pedro-mussi-1323071b1/
-
-<!--
-**joshmadakor1/joshmadakor1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
-
 
