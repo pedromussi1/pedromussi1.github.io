@@ -22,6 +22,20 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=9N2W9QBaXfw">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/zVmAeqo.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### EmailSpam
+  * **Repository:**  https://github.com/pedromussi1/EmailSpam
+  * **Description:** The goal of this project is to develop an email classification system that can automatically classify emails as either "spam" or "ham" (non-spam). This system will help users manage their email inbox more efficiently by automatically filtering out unwanted spam emails.
+  * **Tools:**   Python, Pandas, sklearn, NLTK, Matplotlib, Seaborn, NumPy.
+
+</div>
+<br>
+<hr>
+
+<div>
+<a href="https://www.youtube.com/watch?v=9N2W9QBaXfw">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/6tpvlIc.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
@@ -97,7 +111,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=RmglLZSRwH8">
-<img align="right" height="270px" width="450px" src="https://img.youtube.com/vi/RmglLZSRwH8/0.jpg" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/Pq9XP81.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### TargetChaser
