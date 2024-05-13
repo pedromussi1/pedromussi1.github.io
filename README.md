@@ -21,6 +21,21 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>Fullstack Projects:</h2>
 
 <div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### MyMovieList
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was to create a web application similar to MyAnimeList or Letterboxd, where user can have a profile filled with movie titles and their ratings for each title. I used datasets from Kaggle to populate a table in my database and used this database of available movies for the user to choose from and add to their respective list.
+  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
 <a href="https://www.youtube.com/watch?v=9N2W9QBaXfw">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/zVmAeqo.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
