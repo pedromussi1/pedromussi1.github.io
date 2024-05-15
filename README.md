@@ -117,10 +117,9 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 
-
 <div>
 <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/1cXTZlS.gif" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/KjoM1vQ.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### ZombieGame
@@ -134,7 +133,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=RmglLZSRwH8">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/Pq9XP81.gif" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/Ke3aNd1.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### TargetChaser
