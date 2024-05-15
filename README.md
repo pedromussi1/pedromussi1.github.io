@@ -27,7 +27,11 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### MyMovieList
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to create a web application similar to MyAnimeList or Letterboxd, where user can have a profile filled with movie titles and their ratings for each title. I used datasets from Kaggle to populate a table in my database and used this database of available movies for the user to choose from and add to their respective list.
+  * **Description:** The goal of this project was to create a web application
+    similar to MyAnimeList or Letterboxd, where user can have a profile filled
+    with movie titles and their ratings for each title. I used datasets from
+    Kaggle to populate a table in my database and used this database of
+    available movies for the user to choose from and add to their respective list.
   * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
 
 </div>
