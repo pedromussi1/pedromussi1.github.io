@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pedro Mussi - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -28,84 +30,71 @@
     <section id="contact">
         <h2>Contact Details</h2>
         <ul class="contact-icons">
-            <li>Github: <a href="https://github.com/pedromussi1/" target="_blank">pedromussi1</a></li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/pedro-mussi/" target="_blank">pedro-mussi</a></li>
-            <li>Email: <a href="mailto:pedrorodriguesmussi@gmail.com" target="_blank">pedrorodriguesmussi@gmail.com</a></li>
-            <li>Youtube: <a href="https://www.youtube.com/@pedromussi4769" target="_blank">Pedro Mussi</a></li>
+            <li><strong>Github:</strong> <a href="https://github.com/pedromussi1/" target="_blank">pedromussi1</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pedro-mussi/" target="_blank">pedro-mussi</a></li>
+            <li><strong>Email:</strong> <a href="mailto:pedrorodriguesmussi@gmail.com" target="_blank">pedrorodriguesmussi@gmail.com</a></li>
+            <li><strong>Youtube:</strong> <a href="https://www.youtube.com/@pedromussi4769" target="_blank">Pedro Mussi</a></li>
         </ul>
     </section>
 
     <section id="projects">
-
         <h2>Web Development Projects</h2>
+        <div class="project">
+            <a href="https://www.youtube.com/watch?v=h8sp7vFeV7c" target="_blank">
+                <img src="https://i.imgur.com/NpJRsFX.gif" alt="MyMovieList" width="480 px">
+            </a>
+            <h3><a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></h3>
+            <ul>
+                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></li>
+                <li><strong>Description:</strong> The goal of this project was to create a web application similar to MyAnimeList or Letterboxd, where user can have a profile filled with movie titles and their ratings for each title. This project takes my experience from 'PernTodo' and 'JWT with PERN' and moves to a whole new level by combining their features and adding many more on top of it. I used datasets from Kaggle to populate a table in my database and used this database of available movies for the user to choose from and add to their respective list. I also added react-suggestion to create the drop-down list logic that is used on the application.
+                </li>
+                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
+            </ul>
+        </div>
 
-    <div class="project">
-         <a href="https://www.youtube.com/watch?v=h8sp7vFeV7c" target="_blank">
-            <img src="https://i.imgur.com/NpJRsFX.gif" alt="MyMovieList" width="480 px">
-        </a>
-        <h3><a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></h3>
-            
-        <ul>
-            <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></li>
-            <li><strong>Description:</strong> The goal of this project was to create a web application similar to MyAnimeList or Letterboxd, where user can have a profile filled with movie titles and their ratings for each title. 
-                This project takes my experience from 'PernTodo' and 'JWT with PERN' and moves to a whole new level by combining their features and adding many more on top of it. 
-                I used datasets from Kaggle to populate a table in my database and used this database of available movies for the user to choose from and add to their respective list. I also added react-suggestion to create the drop-down list logic that is used on the application.
+        <div class="project">
+            <a href="https://www.youtube.com/watch?v=q-6X0WgZy_E" target="_blank">
+                <img src="https://i.imgur.com/zVmAeqo.gif" alt="EmailSpam" width="480 px">
+            </a>
+            <h3><a href="https://github.com/pedromussi1/EmailSpam" target="_blank">Email Classification System</a></h3>
+            <ul>
+                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/EmailSpam" target="_blank">EmailSpam</a></li>
+                <li><strong>Description:</strong> The goal of this project is to develop an email classification system that can automatically classify emails as either "spam" or "ham" (non-spam). This system will help users manage their email inbox more efficiently by automatically filtering out unwanted spam emails.
+                </li>
+                <li><strong>Tools:</strong> Python, Pandas, sklearn, NLTK, Matplotlib, Seaborn, NumPy</li>
+            </ul>
+        </div>
 
-            </li>
-            <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
-        </ul>
-    </div>
+        <div class="project">
+            <a href="https://www.youtube.com/watch?v=9N2W9QBaXfw" target="_blank">
+                <img src="https://img.youtube.com/vi/9N2W9QBaXfw/0.jpg" alt="PernTodo">
+            </a>
+            <h3><a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></h3>
+            <ul>
+                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></li>
+                <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer. I designed and implemented the database schemas using PostgreSQL. I developed the logic on the server side and APIs using Express.js and Node.js. Created a responsive interface using React. And built a cohesive web application integrating the frontend and backend components.</li>
+                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
+            </ul>
+        </div>
 
-    <div class="project">
-         <a href="https://www.youtube.com/watch?v=q-6X0WgZy_E" target="_blank">
-            <img src="https://i.imgur.com/zVmAeqo.gif" alt="EmailSpam" width="480 px">
-        </a>
-        <h3><a href="https://github.com/pedromussi1/EmailSpam" target="_blank">Email Classification System</a></h3>
-            
-        <ul>
-            <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/EmailSpam" target="_blank">EmailSpam</a></li>
-            <li><strong>Description:</strong> The goal of this project is to develop an email classification system that can automatically classify emails as either "spam" or "ham" (non-spam). This system will help users manage their email inbox more efficiently by automatically filtering out unwanted spam emails.
+        <div class="project">
+            <a href="https://www.youtube.com/watch?v=lOLUN-cHrbg" target="_blank">
+                <img src="https://img.youtube.com/vi/lOLUN-cHrbg/0.jpg" alt="JWT">
+            </a>
+            <h3><a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></h3>
+            <ul>
+                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></li>
+                <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer along with using JSON Web Tokens to provide authentication and authorization for user logins. I designed and implemented the database schemas using PostgreSQL. JWT was used to secure web APIs. When a user logs in, the server verifies the user's credentials. If they are valid, the server generates a JWT containing a set of claims and signs it using a secret key. The server sends this JWT back to the client. The client stores this token in the browser's local storage. For further requests to protected resources, the client sends the JWT in the request header. The server verifies the JWT's signature to ensure it hasn't been tampered with. If the verification is successful, the server processes the request. The server checks the claims in the JWT to determine whether the user is authorized to access the requested resource. The server sends back the requested data or performs the requested action.</li>
+                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, JSON Web Token, Visual Studio Code</li>
+            </ul>
+        </div>
 
-            </li>
-            <li><strong>Tools:</strong> Python, Pandas, sklearn, NLTK, Matplotlib, Seaborn, NumPy</li>
-        </ul>
-    </div>
-
-    <div class="project">
-        <a href="https://www.youtube.com/watch?v=9N2W9QBaXfw" target="_blank">
-            <img src="https://img.youtube.com/vi/9N2W9QBaXfw/0.jpg" alt="PernTodo">
-        </a>
-        <h3><a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></h3>
-        
-        <ul>
-            <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></li>
-            <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer. I designed and implemented the database schemas using PostgreSQL. I developed the logic on the server side and APIs using Express.js and Node.js. Created a responsive interface using React. And built a cohesive web application integrating the frontend and backend components.</li>
-            <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
-        </ul>
-    </div>
-
-    <div class="project">
-        <a href="https://www.youtube.com/watch?v=lOLUN-cHrbg" target="_blank">
-            <img src="https://img.youtube.com/vi/lOLUN-cHrbg/0.jpg" alt="JWT">
-        </a>
-        <h3><a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></h3>
-        
-        <ul>
-            <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></li>
-            <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer along with using JSON Web Tokens to provide authentication and authorization for user logins. I designed and implemented the database schemas using PostgreSQL. JWT was used to secure web APIs. When a user logs in, the server verifies the user's credentials. If they are valid, the server generates a JWT containing a set of claims and signs it using a secret key. The server sends this JWT back to the client. The client stores this token in the browser's local storage. For further requests to protected resources, the client sends the JWT in the request header. The server verifies the JWT's signature to ensure it hasn't been tampered with. If the verification is successful, the server processes the request. The server checks the claims in the JWT to determine whether the user is authorized to access the requested resource. The server sends back the requested data or performs the requested action.</li>
-            <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, JSON Web Token, Visual Studio Code</li>
-        </ul>
-    </div>
-
-    
         <h2>Gaming Projects</h2>
-        
         <div class="project">
             <a href="https://www.youtube.com/watch?v=wSi-ISIEWBs" target="_blank">
                 <img src="https://img.youtube.com/vi/wSi-ISIEWBs/0.jpg" alt="UnderThawed">
             </a>
             <h3><a href="https://github.com/pedromussi1/Underthawed" target="_blank">UnderThawed</a></h3>
-            
             <ul>
                 <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/Underthawed" target="_blank">UnderThawed</a></li>
                 <li><strong>Description:</strong> Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video.</li>
@@ -113,49 +102,42 @@
                 <li><strong>Future Developments:</strong> Develop an online multiplayer option to the game that uses Netcode for Game Objects</li>
             </ul>
         </div>
-        
+
         <div class="project">
             <a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ" target="_blank">
                 <img src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="PuzzleSolver">
             </a>
             <h3><a href="https://github.com/pedromussi1/PuzzleSolver" target="_blank">PuzzleSolver</a></h3>
-            
             <ul>
                 <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/PuzzleSolver" target="_blank">PuzzleSolver</a></li>
                 <li><strong>Description:</strong> This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level.</li>
                 <li><strong>Tools:</strong> C#, Blender, Unity3D</li>
             </ul>
         </div>
-        
+
         <div class="project">
             <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk" target="_blank">
                 <img src="https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg" alt="ZombieGame">
             </a>
             <h3><a href="https://github.com/pedromussi1/ZombieGame" target="_blank">ZombieGame</a></h3>
-            
             <ul>
                 <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/ZombieGame" target="_blank">ZombieGame</a></li>
                 <li><strong>Description:</strong> The player is given a gun and they must survive the zombie attack. There are 3 waves of zombies, each wave is harder than the last. Can you kill all the zombies and survive until the end?</li>
                 <li><strong>Tools:</strong> C++, Blueprints, Unreal Engine 5</li>
             </ul>
         </div>
-        
+
         <div class="project">
             <a href="https://www.youtube.com/watch?v=RmglLZSRwH8" target="_blank">
                 <img src="https://img.youtube.com/vi/RmglLZSRwH8/0.jpg" alt="TargetChaser">
             </a>
             <h3><a href="https://github.com/pedromussi1/TargetChaser" target="_blank">TargetChaser</a></h3>
-            
             <ul>
                 <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/TargetChaser" target="_blank">TargetChaser</a></li>
                 <li><strong>Description:</strong> Hit all targets around the island before the timer goes off! This game was developed on Unreal Engine 5.</li>
                 <li><strong>Tools:</strong> C++, Blueprints, Unreal Engine 5</li>
             </ul>
         </div>
-        
-
-        <!-- Add more projects here -->
-
     </section>
 </div>
 
@@ -166,7 +148,6 @@
     <a href="https://www.youtube.com/@pedromussi4769" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="32" height="32"></a>
     <a href="https://www.linkedin.com/in/pedro-mussi" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="32" height="32"></a>
 </footer>
-
 
 <script src="script.js"></script>
 </body>
