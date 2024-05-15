@@ -85,9 +85,6 @@ _Email: pedrorodriguesmussi@gmail.com_
 <br>
 <hr>
 
-
-
-
 <h2>👨‍💻 Gaming Projects:</h2>
 
 <div>
@@ -119,7 +116,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk">
-<img align="right" height="270px" width="450px" src="https://imgur.com/z65C1Rt" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/J24FQYQ.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### ZombieGame
@@ -133,7 +130,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://www.youtube.com/watch?v=RmglLZSRwH8">
-<img align="right" height="270px" width="450px" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczYyNzlvZzJydHl2bHFmZTN3bGZyNm1uMTZhbnl2OTloZjhrdjVkcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/CqbNivBkMIuncjxII4/giphy-downsized-large.gif" alt="html" style="vertical-align:top; margin:4px">  
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/Ocpwepy.gif" alt="html" style="vertical-align:top; margin:4px">  
 </a>
 
 ### TargetChaser
