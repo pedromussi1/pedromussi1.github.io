@@ -1,5 +1,3 @@
-// script.js
-
 const projects = document.querySelectorAll('.project');
 
 projects.forEach(project => {
