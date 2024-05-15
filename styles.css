@@ -1,8 +1,6 @@
-/* Updated styles.css */
-
 /* General Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
@@ -27,11 +25,23 @@ header {
 h1 {
     font-size: 36px;
     margin-bottom: 10px;
+    font-weight: 700;
 }
 
-h2, h3 {
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+}
+
+h3 {
     font-size: 24px;
     margin-bottom: 15px;
+    font-weight: 700;
+    color: #555;
 }
 
 /* Project Cards */
@@ -41,11 +51,12 @@ h2, h3 {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .project img {
@@ -68,6 +79,12 @@ footer {
     margin-top: 50px;
 }
 
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
 footer a {
     color: #fff;
     text-decoration: none;
@@ -75,4 +92,41 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    .project {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .project {
+        padding: 10px;
+    }
 }
