@@ -27,7 +27,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### VolumeCV
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was develop a program that used AI how recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
+  * **Description:** The goal of this project was to develop a program that used AI how recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
   * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
 
 </div>
