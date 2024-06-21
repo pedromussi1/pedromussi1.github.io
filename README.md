@@ -18,6 +18,99 @@ _LinkedIn: https://www.linkedin.com/in/pedro-mussi/_
 
 _Email: pedrorodriguesmussi@gmail.com_
 
+<h2>AI Projects</h2>
+
+<div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### VolumeCV
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was develop a program that used AI how recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
+  * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### FingerCounter
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was to create a web application
+    similar to MyAnimeList or Letterboxd, where user can have a profile filled
+    with movie titles and their ratings for each title. I used datasets from
+    Kaggle to populate a table in my database and used this database of
+    available movies for the user to choose from and add to their respective list.
+  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### OCRtranslator
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was to create a web application
+    similar to MyAnimeList or Letterboxd, where user can have a profile filled
+    with movie titles and their ratings for each title. I used datasets from
+    Kaggle to populate a table in my database and used this database of
+    available movies for the user to choose from and add to their respective list.
+  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### OCRbookFinder
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was to create a web application
+    similar to MyAnimeList or Letterboxd, where user can have a profile filled
+    with movie titles and their ratings for each title. I used datasets from
+    Kaggle to populate a table in my database and used this database of
+    available movies for the user to choose from and add to their respective list.
+  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/h8sp7vFeV7c">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### VolumeCV
+  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Description:** The goal of this project was to create a web application
+    similar to MyAnimeList or Letterboxd, where user can have a profile filled
+    with movie titles and their ratings for each title. I used datasets from
+    Kaggle to populate a table in my database and used this database of
+    available movies for the user to choose from and add to their respective list.
+  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+
+</div>
+<br>
+<br>
+<hr>
+
 <h2>Fullstack Projects:</h2>
 
 <div>
