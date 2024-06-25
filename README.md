@@ -27,7 +27,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### VolumeCV
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to develop a program that used AI how recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
+  * **Description:** The goal of this project was to develop a program that used AI to recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
   * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
 
 </div>
@@ -42,12 +42,8 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### FingerCounter
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to create a web application
-    similar to MyAnimeList or Letterboxd, where user can have a profile filled
-    with movie titles and their ratings for each title. I used datasets from
-    Kaggle to populate a table in my database and used this database of
-    available movies for the user to choose from and add to their respective list.
-  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+  * **Description:** The goal of this project was to develop a program that used AI to rcognize fingers through feedback of webcamera and determine how many fingers were up. The way this worked was by identifying points in each finger and using they x and y value to determine if they were up or down.
+  * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
 
 </div>
 <br>
