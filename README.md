@@ -42,7 +42,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### FingerCounter
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to develop a program that used AI to rcognize fingers through feedback of webcamera and determine how many fingers were up. The way this worked was by identifying points in each finger and using they x and y value to determine if they were up or down.
+  * **Description:** The goal of this project was to develop a program that used AI to recognize fingers through feedback of webcamera and determine how many fingers were up. The way this worked was by identifying points in each finger and using they x and y value to determine if they were up or down.
   * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
 
 </div>
@@ -57,12 +57,8 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### OCRtranslator
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to create a web application
-    similar to MyAnimeList or Letterboxd, where user can have a profile filled
-    with movie titles and their ratings for each title. I used datasets from
-    Kaggle to populate a table in my database and used this database of
-    available movies for the user to choose from and add to their respective list.
-  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+  * **Description:** The goal of this project was to develop a program that used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text, and translates it using Azure AI Translator.
+  * **Tools:**  Python, Tesseract, Azure AI Translator, PyCharm
 
 </div>
 <br>
@@ -76,12 +72,8 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 ### OCRbookFinder
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to create a web application
-    similar to MyAnimeList or Letterboxd, where user can have a profile filled
-    with movie titles and their ratings for each title. I used datasets from
-    Kaggle to populate a table in my database and used this database of
-    available movies for the user to choose from and add to their respective list.
-  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
+  * **Description:** The goal of this project was to develop a program taht used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text taht in this case will be a page from a book, and tries to find what book that page is from using the Google Books API.
+  * **Tools:**  Python, Tesseract, Google Books API, PyCharm
 
 </div>
 <br>
