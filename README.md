@@ -37,7 +37,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://youtu.be/h8sp7vFeV7c">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/h7dbXn8.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
 ### FingerCounter
@@ -56,7 +56,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 </a>
 
 ### OCRtranslator
-  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Repository:**  https://github.com/pedromussi1/OCRtranslator
   * **Description:** The goal of this project was to develop a program that used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text, and translates it using Azure AI Translator.
   * **Tools:**  Python, Tesseract, Azure AI Translator, PyCharm
 
@@ -74,25 +74,6 @@ _Email: pedrorodriguesmussi@gmail.com_
   * **Repository:**  https://github.com/pedromussi1/MyMovieList
   * **Description:** The goal of this project was to develop a program taht used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text taht in this case will be a page from a book, and tries to find what book that page is from using the Google Books API.
   * **Tools:**  Python, Tesseract, Google Books API, PyCharm
-
-</div>
-<br>
-<br>
-<hr>
-
-<div>
-<a href="https://youtu.be/h8sp7vFeV7c">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
-</a>
-
-### VolumeCV
-  * **Repository:**  https://github.com/pedromussi1/MyMovieList
-  * **Description:** The goal of this project was to create a web application
-    similar to MyAnimeList or Letterboxd, where user can have a profile filled
-    with movie titles and their ratings for each title. I used datasets from
-    Kaggle to populate a table in my database and used this database of
-    available movies for the user to choose from and add to their respective list.
-  * **Tools:**  PostgreSQL, Express.js, React, Node.js, Kaggle, Visual Studio Code
 
 </div>
 <br>
