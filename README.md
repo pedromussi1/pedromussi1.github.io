@@ -41,7 +41,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 </a>
 
 ### FingerCounter
-  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Repository:**  https://github.com/pedromussi1/FingerCounter
   * **Description:** The goal of this project was to develop a program that used AI to recognize fingers through feedback of webcamera and determine how many fingers were up. The way this worked was by identifying points in each finger and using they x and y value to determine if they were up or down.
   * **Tools:**  Python, Mediapipe, OpenCV, PyCharm
 
