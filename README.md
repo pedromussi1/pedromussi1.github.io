@@ -21,7 +21,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>AI Projects</h2>
 
 <div>
-<a href="https://youtu.be/h8sp7vFeV7c">
+<a href="https://youtu.be/ctGG8855ywQ">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/364Z23k.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
@@ -36,7 +36,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 <div>
-<a href="https://youtu.be/h8sp7vFeV7c">
+<a href="https://youtu.be/cQrnbUxihgU">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/h7dbXn8.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
@@ -51,7 +51,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 <div>
-<a href="https://youtu.be/h8sp7vFeV7c">
+<a href="https://youtu.be/8WRVGjx1IiM">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/TCAQEac.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
