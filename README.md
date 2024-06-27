@@ -66,12 +66,12 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 <div>
-<a href="https://youtu.be/h8sp7vFeV7c">
+<a href="https://github.com/pedromussi1/OCRbookFinder">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/gZxakIi.png" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
 ### OCRbookFinder
-  * **Repository:**  https://github.com/pedromussi1/MyMovieList
+  * **Repository:**  https://github.com/pedromussi1/OCRbookFinder
   * **Description:** The goal of this project was to develop a program taht used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text taht in this case will be a page from a book, and tries to find what book that page is from using the Google Books API.
   * **Tools:**  Python, Tesseract, Google Books API, PyCharm
 
@@ -102,7 +102,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <hr>
 
 <div>
-<a href="https://www.youtube.com/watch?v=9N2W9QBaXfw">
+<a href="https://www.youtube.com/watch?v=q-6X0WgZy_E">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/zVmAeqo.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
