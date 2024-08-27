@@ -25,6 +25,21 @@ _Email: pedrorodriguesmussi@gmail.com_
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/364Z23k.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
+### ComicRecognition
+  * **Repository:**  https://github.com/pedromussi1/ComicRecognition
+  * **Description:** The goal of this project was to develop a program that uses image recognition to identify comic books based on their covers. Built with Flask and a trained machine learning model, the application allows users to upload an image of a comic book cover and receive identification results. The system processes and classifies the uploaded images, providing users with relevant information about the comic book.
+  * **Tools:**  Flask, Python, TensorFlow, OpenCV, HTML/CSS/Javascript, NumPy, Pandas
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/ctGG8855ywQ">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/364Z23k.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
 ### VolumeCV
   * **Repository:**  https://github.com/pedromussi1/VolumeCV
   * **Description:** The goal of this project was to develop a program that used AI to recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
