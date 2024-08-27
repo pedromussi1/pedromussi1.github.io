@@ -25,8 +25,8 @@ _Email: pedrorodriguesmussi@gmail.com_
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/364Z23k.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
-### ComicRecognition
-  * **Repository:**  https://github.com/pedromussi1/ComicRecognition
+### ComicRecognizer
+  * **Repository:**  https://github.com/pedromussi1/ComicRecognizer
   * **Description:** The goal of this project was to develop a program that uses image recognition to identify comic books based on their covers. Built with Flask and a trained machine learning model, the application allows users to upload an image of a comic book cover and receive identification results. The system processes and classifies the uploaded images, providing users with relevant information about the comic book.
   * **Tools:**  Flask, Python, TensorFlow, OpenCV, HTML/CSS/Javascript, NumPy, Pandas
 
