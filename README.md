@@ -22,7 +22,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 <div>
 <a href="https://youtu.be/ctGG8855ywQ">
-<img align="right" height="270px" width="450px" src="https://i.imgur.com/8WfI5MX.gif" alt="html" style="vertical-align:top; margin:4px">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/uPkoNw1.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
 ### ComicRecognizer
