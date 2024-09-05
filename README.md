@@ -21,6 +21,21 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>AI Projects</h2>
 
 <div>
+<a href="https://youtu.be/U1GcrE8YPWU">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/OTuB77Y.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### OCRbookfinder_Web
+  * **Repository:**  https://github.com/pedromussi1/OCRbookfinder_Web
+  * **Description:** The goal of this project was to make the original OCRbookfinder into a website that people can go to and use without having to download and run the program on their machines. The program used Flask to build the application, Docker to package the application and its dependencies into containers and used Fly.io to deploy and host the service on the cloud.
+  * **Tools:**  Flask, Python, Tesseract, Google Books API, HTML/CSS/Javascript
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
 <a href="https://youtu.be/nas4T9-hjTs">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/ey8W5al.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
