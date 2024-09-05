@@ -21,7 +21,7 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>AI Projects</h2>
 
 <div>
-<a href="https://youtu.be/nas4T9-hjTs?si=XyPTu-Jiohu00vBB">
+<a href="https://youtu.be/nas4T9-hjTs">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/ey8W5al.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
