@@ -25,6 +25,21 @@ _Email: pedrorodriguesmussi@gmail.com_
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/OTuB77Y.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
 
+### Gabe Chachas Website
+  * **Repository:**  https://github.com/pedromussi1/GabeChachasWebsite
+  * **Description:** The goal of this project was to make a artist website with links to youtube video, lyrics and spotify links to every song and breakdown of the artist's discography. The program used React to build the application, Docker to package the application and its dependencies into containers and used Fly.io to deploy and host the service on the cloud.
+  * **Tools:**  Docker, React App, Express, Node.js, Fly.io, HTML/CSS/Javascript
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
+<a href="https://youtu.be/U1GcrE8YPWU">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/OTuB77Y.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
 ### OCRbookfinder_Web
   * **Repository:**  https://github.com/pedromussi1/OCRbookfinder_Web
   * **Description:** The goal of this project was to make the original OCRbookfinder into a website that people can go to and use without having to download and run the program on their machines. The program used Flask to build the application, Docker to package the application and its dependencies into containers and used Fly.io to deploy and host the service on the cloud.
