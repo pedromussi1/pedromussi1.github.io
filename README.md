@@ -174,6 +174,21 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>Fullstack Projects:</h2>
 
 <div>
+<a href="https://youtu.be/Wwa3Uohue_4?si=sRUXDZXQ9HMwyMBo">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/RVu12mW.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### Comic Book Scanner
+  * **Repository:**  https://github.com/pedromussi1/comic-scanner
+  * **Description:** A Flask-based web application that identifies comic book covers using image recognition and integrates with the Google Books API to fetch detailed comic information such as title, author, and publication date.
+  * **Tools:**  Python, Flask, TensorFLow/Keras, OpenCV/Numpy, PostgreSQL, HTML/CSS/JavaScript, Fly.io, Google Books API
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
 <a href="https://youtu.be/h8sp7vFeV7c">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/NpJRsFX.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
@@ -301,5 +316,6 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 [gmail]: mailto:pedrorodriguesmussi@gmail.com
 [linkedin]: https://www.linkedin.com/in/pedro-mussi-1323071b1/
+
 
 
