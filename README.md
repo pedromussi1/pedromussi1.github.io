@@ -21,6 +21,37 @@ _Email: pedrorodriguesmussi@gmail.com_
 <h2>AI Projects</h2>
 
 <div>
+<a href="https://youtu.be/WbnEZCk2rro?si=6OllhiDgiCsy4A-X">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/Ixowszi.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### Music Genre Classifier
+  * **Repository:**  https://github.com/pedromussi1/music_genre_classifier
+  * **Description:** A machine learning web application that classifies music tracks into genres using audio feature extraction and a trained convolutional neural network, powered by Streamlit, Librosa, and TensorFlow/Keras.
+  * **Tools:**  Python, Streamlit, Librosa, TensorFlow/Keras, Matplotlib/Pillow, Soundfile
+
+</div>
+<br>
+<br>
+<hr>
+
+
+<div>
+<a href="https://youtu.be/OthfVoaf9wE?si=7bgmph3zL7nisOlW">
+<img align="right" height="270px" width="450px" src="https://i.imgur.com/AhK9NWN.gif" alt="html" style="vertical-align:top; margin:4px">
+</a>
+
+### Emotion Detector from Voice
+  * **Repository:**  https://github.com/pedromussi1/emotion_detector
+  * **Description:** A machine learning web application that detects human emotions from voice recordings using audio feature extraction and a trained model, powered by Streamlit, Librosa, and Scikit-learn.
+  * **Tools:**  Python, Streamlit, Librosa, Scikit-learn, Joblib, Soundfile, Pandas
+
+</div>
+<br>
+<br>
+<hr>
+
+<div>
 <a href="https://youtu.be/U1GcrE8YPWU">
 <img align="right" height="270px" width="450px" src="https://i.imgur.com/ETF5sFC.gif" alt="html" style="vertical-align:top; margin:4px">
 </a>
@@ -270,4 +301,5 @@ _Email: pedrorodriguesmussi@gmail.com_
 
 [gmail]: mailto:pedrorodriguesmussi@gmail.com
 [linkedin]: https://www.linkedin.com/in/pedro-mussi-1323071b1/
+
 
