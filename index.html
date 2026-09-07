@@ -1,292 +1,479 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pedro Mussi - Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pedro Mussi</title>
+<meta name="description" content="Pedro Mussi. M.S. Artificial Intelligence at USF. LLM systems, retrieval, and on-device computer vision.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;450;600&display=swap">
+<style>
+  :root {
+    --paper:#fbfbfc; --raised:#ffffff; --ink:#14161a; --ink-2:#474d55; --ink-3:#767d86;
+    --rule:#e3e5e9; --rule-2:#eef0f3; --accent:#0f6d63; --accent-w:#e9f3f1; --shade:#f1f2f4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper:#0e1013; --raised:#16191d; --ink:#e9ebee; --ink-2:#a8b0b9; --ink-3:#7a828b;
+      --rule:#262b31; --rule-2:#1d2126; --accent:#52c9b8; --accent-w:#14262a; --shade:#1a1e23;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper:#0e1013; --raised:#16191d; --ink:#e9ebee; --ink-2:#a8b0b9; --ink-3:#7a828b;
+    --rule:#262b31; --rule-2:#1d2126; --accent:#52c9b8; --accent-w:#14262a; --shade:#1a1e23;
+  }
+
+  * { box-sizing: border-box; }
+  img { max-width: 100%; display: block; }
+
+  body {
+    background: var(--paper); color: var(--ink);
+    font-family: "Public Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px; line-height: 1.6; margin: 0; padding: 0 24px 96px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 860px; margin: 0 auto; }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; text-underline-offset: 3px; }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
+
+  /* Masthead */
+  header { padding: 88px 0 0; }
+  h1 {
+    font-family: "Newsreader", Georgia, serif; font-optical-sizing: auto; font-weight: 500;
+    font-size: clamp(38px, 7vw, 54px); line-height: 1.02; letter-spacing: -0.02em;
+    margin: 0 0 14px; text-wrap: balance;
+  }
+  .standfirst {
+    font-family: "Newsreader", Georgia, serif; font-weight: 400;
+    font-size: clamp(19px, 2.6vw, 23px); line-height: 1.45; color: var(--ink-2);
+    margin: 0 0 30px; max-width: 32ch; text-wrap: balance;
+  }
+  .meta {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px; color: var(--ink-3);
+    display: flex; flex-wrap: wrap; gap: 6px 14px; padding-bottom: 30px;
+  }
+  .meta .div { color: var(--rule); }
+  .intro {
+    font-size: 17px; line-height: 1.68; color: var(--ink-2); max-width: 66ch;
+    margin: 0 0 16px; padding-top: 34px; border-top: 1px solid var(--rule);
+  }
+  .intro + .intro { padding-top: 0; border-top: none; }
+  .intro b { color: var(--ink); font-weight: 600; }
+
+  h2 {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11.5px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.16em; color: var(--ink-3);
+    margin: 84px 0 0; padding-bottom: 10px; border-bottom: 1px solid var(--ink);
+  }
+  .sect-note { font-size: 14.5px; color: var(--ink-3); margin: 16px 0 0; max-width: 62ch; }
+
+  /* Flagship project */
+  article { padding: 38px 0 34px; border-bottom: 1px solid var(--rule-2); }
+  article:last-child { border-bottom: none; }
+
+  .title-row {
+    display: flex; align-items: baseline; justify-content: space-between;
+    gap: 16px; flex-wrap: wrap; margin-bottom: 4px;
+  }
+  h3 {
+    font-family: "Newsreader", Georgia, serif; font-weight: 500; font-size: 27px;
+    line-height: 1.15; letter-spacing: -0.012em; margin: 0;
+  }
+  h3 a { color: var(--ink); }
+  h3 a:hover { color: var(--accent); text-decoration: none; }
+
+  .badge {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px;
+    letter-spacing: 0.09em; text-transform: uppercase; color: var(--accent);
+    background: var(--accent-w); border-radius: 2px; padding: 3px 7px; white-space: nowrap;
+  }
+
+  .shot {
+    margin: 20px 0 0; border: 1px solid var(--rule); border-radius: 4px;
+    overflow: hidden; background: var(--shade); line-height: 0;
+  }
+
+  .thesis { font-size: 16.5px; line-height: 1.62; color: var(--ink-2); margin: 18px 0 0; max-width: 66ch; }
+  .thesis b { color: var(--ink); font-weight: 600; }
+
+  .readout {
+    display: flex; flex-wrap: wrap; margin: 22px 0 0;
+    border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  }
+  .cell { flex: 1 1 auto; min-width: 108px; padding: 13px 18px 12px 0; }
+  .cell .v {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 19px; font-weight: 500;
+    line-height: 1.1; color: var(--accent); font-variant-numeric: tabular-nums; display: block;
+  }
+  .cell .k {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 10.5px; letter-spacing: 0.07em;
+    text-transform: uppercase; color: var(--ink-3); display: block; margin-top: 6px;
+  }
+
+  .stack {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11.5px;
+    line-height: 1.65; color: var(--ink-3); margin: 20px 0 0;
+  }
+  .links {
+    display: flex; flex-wrap: wrap; gap: 6px 18px; margin-top: 12px;
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12px;
+  }
+  .links a::after { content: " \2197"; font-size: .85em; }
+
+  /* Grid of smaller projects */
+  .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 30px 28px; margin-top: 32px; }
+  .card { display: flex; flex-direction: column; }
+  .card .shot { margin: 0 0 14px; }
+  .card h4 {
+    font-family: "Newsreader", Georgia, serif; font-weight: 500; font-size: 20px;
+    line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.01em;
+  }
+  .card h4 a { color: var(--ink); }
+  .card h4 a:hover { color: var(--accent); text-decoration: none; }
+  .card p { font-size: 14.5px; line-height: 1.55; color: var(--ink-2); margin: 0 0 10px; }
+  .card .stack { font-size: 11px; margin: auto 0 8px; }
+  .card .links { font-size: 11.5px; margin-top: 0; }
+
+  /* Background */
+  .bg-row {
+    display: grid; grid-template-columns: 148px 1fr; gap: 4px 22px;
+    padding: 18px 0; border-bottom: 1px solid var(--rule-2);
+  }
+  .bg-row:last-of-type { border-bottom: none; }
+  .bg-when {
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 11.5px;
+    color: var(--ink-3); padding-top: 4px; font-variant-numeric: tabular-nums;
+  }
+  .bg-what { font-size: 15.5px; line-height: 1.55; color: var(--ink-2); }
+  .bg-what b { color: var(--ink); font-weight: 600; display: block; }
+  .more { font-size: 15.5px; color: var(--ink-2); margin: 26px 0 0; max-width: 66ch; }
+
+  footer {
+    margin-top: 88px; padding-top: 26px; border-top: 1px solid var(--ink);
+    font-family: "JetBrains Mono", ui-monospace, monospace; font-size: 12.5px;
+    display: flex; flex-wrap: wrap; gap: 8px 22px; color: var(--ink-3);
+  }
+
+  @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; } }
+  @media (max-width: 700px) {
+    .grid { grid-template-columns: 1fr; }
+    header { padding-top: 56px; }
+    h2 { margin-top: 62px; }
+    .bg-row { grid-template-columns: 1fr; gap: 2px; }
+    .cell { min-width: 96px; padding-right: 14px; }
+  }
+</style>
 </head>
 <body>
+<div class="wrap">
 
-<header>
+  <header>
     <h1>Pedro Mussi</h1>
-    <p>Game Developer, Computer Science Professional</p>
-</header>
+    <p class="standfirst">I build software, then check whether it actually got better.</p>
+    <div class="meta">
+      <span>Tampa, FL</span><span class="div">/</span>
+      <span>M.S. Artificial Intelligence, USF</span><span class="div">/</span>
+      <span>Dec 2027</span>
+    </div>
+    <p class="intro">
+      Most of my work sits around LLM systems, retrieval, and on-device computer vision. The part I care about is not
+      getting a model to produce output. It is proving that a change helped, which usually means building the evaluation
+      before building the feature.
+    </p>
+    <p class="intro">
+      Everything below is public and most of it is running right now. Where there are numbers, they come from a held-out
+      test set or a real eval, not from a demo that happened to go well.
+    </p>
+  </header>
 
-<div class="container">
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            My name is Pedro, and I am a Computer Science professional with a Bachelor's degree from the University of South Florida. Skilled in game development, web development, database management, and 3D modeling. Proficient in coding languages such as Java, JavaScript, C, C++, Python, C#, HTML, and CSS.
+  <h2>Selected work</h2>
 
-            I have extensive knowledge in algorithms, operating systems, and cybersecurity with a focus on cryptographic algorithms. I have a proven track record of independent research and study in cybersecurity. What I am truly passionate about is game development, and I have become adept at using Unity and Unreal Engine for developing games, and have gained experience with using Blender for asset modeling on my personal projects.
+  <article>
+    <div class="title-row">
+      <h3><a href="https://purdle.app">Purdle</a></h3>
+      <span class="badge">Live</span>
+    </div>
+    <figure class="shot">
+      <img src="https://raw.githubusercontent.com/pedromussi1/Purdle/main/docs/screenshot.png" alt="Purdle gameplay, a three-guess solve of an automatically generated puzzle" loading="lazy">
+    </figure>
+    <p class="thesis">
+      Four daily word games, generated overnight by an LLM pipeline with no human in the loop. An LLM cannot be trusted
+      to produce a valid puzzle on demand, so <b>generation is a proposal and validation is the authority</b>. Candidates
+      are gated on dictionary membership, word frequency, profanity, recency, and per-game structural checks like
+      embedding novelty and BFS reachability. Failures retry with the validator's feedback fed back into the prompt, and
+      exhausted retries fall back to deterministic selection so the site is never empty.
+    </p>
+    <div class="readout">
+      <div class="cell"><span class="v">4</span><span class="k">daily games</span></div>
+      <div class="cell"><span class="v">0</span><span class="k">humans in loop</span></div>
+      <div class="cell"><span class="v">$15</span><span class="k">per year to run</span></div>
+    </div>
+    <p class="stack">React 19 &middot; TypeScript &middot; Vite &middot; Zustand &middot; Supabase &middot; Postgres &middot; Python &middot; Gemini &middot; GitHub Actions</p>
+    <div class="links">
+      <a href="https://purdle.app">purdle.app</a>
+      <a href="https://github.com/pedromussi1/Purdle">Source</a>
+    </div>
+  </article>
 
-            I am a quick learner with a strong aptitude for mastering new languages and software and am open to exciting opportunities in the tech industry.
-        </p>
-    </section>
+  <article>
+    <div class="title-row">
+      <h3><a href="https://github.com/pedromussi1/PaperPal">PaperPal</a></h3>
+    </div>
+    <figure class="shot">
+      <img src="https://raw.githubusercontent.com/pedromussi1/PaperPal/main/docs/screenshot.png" alt="PaperPal answering a question about a research paper with inline page citations" loading="lazy">
+    </figure>
+    <p class="thesis">
+      Ask questions about your research papers with everything running on your own machine. No API keys, no cloud model,
+      no per-query cost. Answers stream token by token with inline page-anchored citations you can click to check against
+      the source. <b>I wrote the evaluation set before touching any retrieval parameters</b>, which is the only reason I
+      can say what retrieval actually bought.
+    </p>
+    <div class="readout">
+      <div class="cell"><span class="v">0&rarr;50%</span><span class="k">citation precision</span></div>
+      <div class="cell"><span class="v">0&rarr;62.5%</span><span class="k">citation recall</span></div>
+      <div class="cell"><span class="v">+230ms</span><span class="k">latency cost</span></div>
+    </div>
+    <p class="stack">FastAPI &middot; ChromaDB &middot; Ollama &middot; Llama 3.1 8B &middot; sentence-transformers &middot; PyMuPDF &middot; Next.js 16 &middot; React 19</p>
+    <div class="links">
+      <a href="https://github.com/pedromussi1/PaperPal">Source</a>
+    </div>
+  </article>
 
-    <section id="contact">
-        <h2>Contact Details</h2>
-        <ul class="contact-icons">
-            <li><strong>Github:</strong> <a href="https://github.com/pedromussi1/" target="_blank">pedromussi1</a></li>
-            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pedro-mussi/" target="_blank">pedro-mussi</a></li>
-            <li><strong>Email:</strong> <a href="mailto:pedrorodriguesmussi@gmail.com" target="_blank">pedrorodriguesmussi@gmail.com</a></li>
-            <li><strong>Youtube:</strong> <a href="https://www.youtube.com/@pedromussi4769" target="_blank">Pedro Mussi</a></li>
-        </ul>
-    </section>
+  <article>
+    <div class="title-row">
+      <h3><a href="https://github.com/pedromussi1/cite-faithfulness">cite-faithfulness</a></h3>
+      <span class="badge">Research</span>
+    </div>
+    <figure class="shot">
+      <img src="https://raw.githubusercontent.com/pedromussi1/cite-faithfulness/main/docs/screenshot.png" alt="cite-faithfulness evaluation output" loading="lazy">
+    </figure>
+    <p class="thesis">
+      A RAG system can cite the right page and still say something that page does not support. This reproduces the ALCE
+      citation metric (Gao et al., EMNLP 2023) using natural language inference instead of word overlap, then adds a
+      verifier that flags unsupported citations and re-attributes them to passages that actually entail the claim.
+      <b>The verifier is scored against human-curated gold pages so the judge is never graded by itself</b>, with
+      bootstrap confidence intervals rather than a single number.
+    </p>
+    <div class="readout">
+      <div class="cell"><span class="v">95%</span><span class="k">bootstrap CI</span></div>
+      <div class="cell"><span class="v">26</span><span class="k">gold questions</span></div>
+      <div class="cell"><span class="v">3B / 8B</span><span class="k">models swept</span></div>
+    </div>
+    <p class="stack">DeBERTa-MNLI &middot; sentence-transformers CrossEncoder &middot; Python &middot; threshold sensitivity analysis</p>
+    <div class="links">
+      <a href="https://github.com/pedromussi1/cite-faithfulness">Source</a>
+    </div>
+  </article>
 
-    <section id="projects">
-        <h2>Machine Learning Projects</h2>
+  <article>
+    <div class="title-row">
+      <h3><a href="https://github.com/pedromussi1/paper-tldr">paper-tldr</a></h3>
+    </div>
+    <figure class="shot">
+      <img src="https://raw.githubusercontent.com/pedromussi1/paper-tldr/main/docs/screenshot.png" alt="paper-tldr evaluation results against the zero-shot baseline" loading="lazy">
+    </figure>
+    <p class="thesis">
+      A QLoRA fine-tune of Llama 3.2 3B that rewrites dense scientific abstracts as plain-language summaries. Trained in
+      41 minutes on a single 12 GB consumer GPU. <b>It beat the zero-shot baseline on every metric reported</b>, across a
+      held-out 618-example test set, at 30% shorter output length. I ran rank and prompt-sensitivity ablations to justify
+      the hyperparameters and documented the overfitting in a model card rather than reporting only the headline.
+    </p>
+    <div class="readout">
+      <div class="cell"><span class="v">+13%</span><span class="k">ROUGE-1</span></div>
+      <div class="cell"><span class="v">+27%</span><span class="k">ROUGE-2</span></div>
+      <div class="cell"><span class="v">+22%</span><span class="k">ROUGE-L</span></div>
+      <div class="cell"><span class="v">+4.8%</span><span class="k">BERTScore F1</span></div>
+    </div>
+    <p class="stack">PyTorch &middot; Hugging Face PEFT &middot; bitsandbytes &middot; 4-bit NF4 &middot; SciTLDR &middot; GGUF export</p>
+    <div class="links">
+      <a href="https://github.com/pedromussi1/paper-tldr">Source</a>
+    </div>
+  </article>
 
-        <div class="project">
-            <a href="https://youtu.be/WbnEZCk2rro?si=6OllhiDgiCsy4A-X" target="_blank">
-                <img src="https://i.imgur.com/Ixowszi.gif" alt="Music Genre Classifier" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/music_genre_classifier" target="_blank">Music Genre Classifier</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/music-genre-classifier" target="_blank">Music Genre Classifier</a></li>
-                <li><strong>Description:</strong> A machine learning web application that classifies music tracks into genres using audio feature extraction and a trained convolutional neural network, powered by Streamlit, Librosa, and TensorFlow/Keras.
-                </li>
-                <li><strong>Tools:</strong> Python, Streamlit, Librosa, TensorFlow/Keras, Matplotlib/Pillow, Soundfile</li>
-            </ul>
-        </div>
-        
+  <article>
+    <div class="title-row">
+      <h3><a href="https://asl-translator-rosy.vercel.app/">ASL-Translator</a></h3>
+      <span class="badge">Live</span>
+    </div>
+    <figure class="shot">
+      <img src="https://i.imgur.com/iMM8Z1S.gif" data-alt="https://i.imgur.com/iMM8Z1S.png https://i.imgur.com/iMM8Z1S.jpeg" alt="ASL-Translator recognizing fingerspelled letters in the browser" loading="lazy">
+    </figure>
+    <p class="thesis">
+      Real-time American Sign Language fingerspelling to text and speech, running entirely in the browser. <b>No camera
+      frame ever leaves the user's device.</b> The interesting problems were in the pipeline rather than the model:
+      temporal smoothing and motion suppression to stop false letter fires mid-gesture, a word-buffer state machine for
+      repeated letters, and handcrafted trajectory detectors for the motion letters J and Z.
+    </p>
+    <div class="readout">
+      <div class="cell"><span class="v">98.06%</span><span class="k">test accuracy</span></div>
+      <div class="cell"><span class="v">71.5 KB</span><span class="k">ONNX model</span></div>
+      <div class="cell"><span class="v">36</span><span class="k">unit tests</span></div>
+    </div>
+    <p class="stack">Next.js 16 &middot; TypeScript &middot; Tailwind &middot; MediaPipe Tasks &middot; PyTorch &middot; ONNX Runtime Web &middot; WebGPU &middot; Vitest</p>
+    <div class="links">
+      <a href="https://asl-translator-rosy.vercel.app/">Live demo</a>
+      <a href="https://github.com/pedromussi1/ASL-Translator">Source</a>
+    </div>
+  </article>
 
-        <div class="project">
-            <a href="https://youtu.be/OthfVoaf9wE?si=7bgmph3zL7nisOlW" target="_blank">
-                <img src="https://i.imgur.com/AhK9NWN.gif" alt="Emotion Detector from Voice" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/emotion_detector" target="_blank">Emotion Detector from Voice</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/emotion_detector" target="_blank">Emotion Detector from Voice</a></li>
-                <li><strong>Description:</strong> A machine learning web application that detects human emotions from voice recordings using audio feature extraction and a trained model, powered by Streamlit, Librosa, and Scikit-learn.
-                </li>
-                <li><strong>Tools:</strong> Python, Streamlit, Librosa, Scikit-learn, Joblib, Soundfile, Pandas</li>
-            </ul>
-        </div>
-        
-        <div class="project">
-            <a href="https://youtu.be/U1GcrE8YPWU" target="_blank">
-                <img src="https://i.imgur.com/OTuB77Y.gif" alt="OCRbookfinder_Web" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/OCRbookfinder_Web" target="_blank">OCR Bookfinder Web</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/OCRbookfinder_Web" target="_blank">OCR Bookfinder Web</a></li>
-                <li><strong>Description:</strong> The OCR BookFinder Web project is a web-based application designed to recognize text from images of book pages and identify the book based on the extracted text. The application utilizes Tesseract OCR for text extraction, OpenCV for image preprocessing, and the Google Books API for book identification. Users can upload an image of a book page, and the system will process it to display the extracted text and the best matching book from the Google Books database. This tool is particularly useful for identifying books based on pages or specific text snippets captured via images.
-                </li>
-                <li><strong>Tools:</strong> Flask, Python, OpenCV, Tesseract, HTML/CSS/Javascript, Google Books API</li>
-            </ul>
-        </div>
+  <h2>Machine learning and computer vision</h2>
+  <p class="sect-note">Earlier work in audio classification, OCR, and real-time hand tracking.</p>
 
-        <div class="project">
-            <a href="https://youtu.be/nas4T9-hjTs" target="_blank">
-                <img src="https://i.imgur.com/KCK0WYy.gif" alt="OCRtranslator_Web" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/OCRtranslator_Web" target="_blank">OCR Translator Web</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/OCRtranslator_Web" target="_blank">OCR Translator Web</a></li>
-                <li><strong>Description:</strong> The OCR Translator Web project is a web-based application designed to recognize text from images and translate it into various languages. The application leverages Tesseract OCR for text extraction, OpenCV for image preprocessing, and Azure Translation API for language translation. Users can upload an image containing text, and the system will process it to display the extracted and translated text. This tool is particularly useful for translating foreign documents, street signs, or any text captured via images.
-                </li>
-                <li><strong>Tools:</strong> Flask, Python, OpenCV, Tesseract, HTML/CSS/Javascript, Azure Translation API</li>
-            </ul>
-        </div>
-        
-        <div class="project">
-            <a href="https://youtu.be/eR3BjxQYPs8" target="_blank">
-                <img src="https://i.imgur.com/uPkoNw1.gif" alt="ComicRecognizer" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/comic-recognizer" target="_blank">Comic Recognizer</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/comic-recognizer" target="_blank">Comic Recognizer</a></li>
-                <li><strong>Description:</strong> The goal of this project was to develop a program that uses image recognition to identify comic books based on their covers. Built with Flask and a trained machine learning model, the application allows users to upload an image of a comic book cover and receive identification results. The system processes and classifies the uploaded images, providing users with relevant information about the comic book.
-                </li>
-                <li><strong>Tools:</strong> Flask, Python, TensorFlow, OpenCV, HTML/CSS/Javascript, NumPy, Pandas</li>
-            </ul>
-        </div>
-        
-        <div class="project">
-            <a href="https://youtu.be/ctGG8855ywQ?si=xHPZ3mYnPPj2jXQK" target="_blank">
-                <img src="https://i.imgur.com/364Z23k.gif" alt="VolumeCV" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/VolumeCV" target="_blank">VolumeCV</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/VolumeCV" target="_blank">VolumeCV</a></li>
-                <li><strong>Description:</strong> The goal of this project was to develop a program that used AI to recognize human hands through feedback of a webcamera and use that to control audio volume of the computer. This worked by identifying points in the hand for discerning between different fingers, and using that information to change the volume of the computer as we judged best.
-                </li>
-                <li><strong>Tools:</strong> Python, Mediapipe, OpenCV, PyCharm</li>
-            </ul>
-        </div>
+  <div class="grid">
 
-        <div class="project">
-            <a href="https://youtu.be/cQrnbUxihgU" target="_blank">
-                <img src="https://i.imgur.com/h7dbXn8.gif" alt="FingerCounter" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/FingerCounter" target="_blank">FingerCounter</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/FingerCounter" target="_blank">FingerCounter</a></li>
-                <li><strong>Description:</strong> The goal of this project was to develop a program that used AI to recognize fingers through feedback of webcamera and determine how many fingers were up. The way this worked was by identifying points in each finger and using they x and y value to determine if they were up or down.
-                </li>
-                <li><strong>Tools:</strong> Python, Mediapipe, OpenCV, PyCharm</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/Ixowszi.gif" alt="Music Genre Classifier in use" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/MusicGenreClassifier">Music Genre Classifier</a></h4>
+      <p>A web app that classifies music tracks by genre using audio feature extraction and a trained convolutional neural network.</p>
+      <p class="stack">Streamlit &middot; Librosa &middot; TensorFlow/Keras</p>
+      <div class="links"><a href="https://github.com/pedromussi1/MusicGenreClassifier">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://youtu.be/8WRVGjx1IiM" target="_blank">
-                <img src="https://i.imgur.com/TCAQEac.gif" alt="OCRtranslator" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/OCRtranslator" target="_blank">OCRtranslator</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/OCRtranslator" target="_blank">OCRtranslator</a></li>
-                <li><strong>Description:</strong> The goal of this project was to develop a program that used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text, and translates it using Azure AI Translator.
-                </li>
-                <li><strong>Tools:</strong> Python, Tesseract, Azure AI Translator, PyCharm</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/AhK9NWN.gif" alt="Emotion Detector from Voice in use" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/EmotionDetector">Emotion Detector from Voice</a></h4>
+      <p>Detects emotion in a voice recording from MFCC and Chroma features, served through a small web interface.</p>
+      <p class="stack">Streamlit &middot; Librosa &middot; Scikit-learn</p>
+      <div class="links"><a href="https://github.com/pedromussi1/EmotionDetector">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://github.com/pedromussi1/OCRbookFinder" target="_blank">
-                <img src="https://i.imgur.com/gZxakIi.png" alt="OCRbookFinder" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/OCRbookFinder" target="_blank">OCRbookFinder</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/OCRbookFinder" target="_blank">OCRbookFinder</a></li>
-                <li><strong>Description:</strong> The goal of this project was to develop a program that used AI with OCR (Optical Character Recognition) to analyze images taken in by the program. It takes an image from file path in the program, looks for any text, and translates it using Azure AI Translator.
-                </li>
-                <li><strong>Tools:</strong> Python, Tesseract, Google Books API, PyCharm</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/uPkoNw1.gif" alt="Comic Recognizer identifying a comic cover" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/comic-scanner">Comic Recognizer</a></h4>
+      <p>Identifies comic books from their covers using image recognition, then builds a personal collection. Falls back to barcode lookup when one is present.</p>
+      <p class="stack">Flask &middot; TensorFlow/Keras &middot; OpenCV &middot; PostgreSQL</p>
+      <div class="links"><a href="https://github.com/pedromussi1/comic-scanner">Source</a></div>
+    </div>
 
-    <section id="projects">
-        <h2>Web Development Projects</h2>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/OTuB77Y.gif" alt="OCR BookFinder Web in use" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/OCRbookFinderWeb">OCR BookFinder Web</a></h4>
+      <p>Reads text from a photo of a book page or cover, then identifies the book from the extracted text.</p>
+      <p class="stack">Tesseract OCR &middot; OpenCV &middot; Google Books API</p>
+      <div class="links"><a href="https://github.com/pedromussi1/OCRbookFinderWeb">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://youtu.be/Wwa3Uohue_4?si=sRUXDZXQ9HMwyMBo" target="_blank">
-                <img src="https://i.imgur.com/RVu12mW.gif" alt="Comic Book Scanner" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/comic-scanner" target="_blank">Comic Book Scanner</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/comic-scanner" target="_blank">Comic Book Scanner</a></li>
-                <li><strong>Description:</strong> A Flask-based web application that identifies comic book covers using image recognition and integrates with the Google Books API to fetch detailed comic information such as title, author, and publication date.
-                </li>
-                <li><strong>Tools:</strong> Python, Flask, TensorFLow/Keras, OpenCV/Numpy, PostgreSQL, HTML/CSS/JavaScript, Fly.io, Google Books API</li>
-            </ul>
-        </div>
-        
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=h8sp7vFeV7c" target="_blank">
-                <img src="https://i.imgur.com/NpJRsFX.gif" alt="MyMovieList" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/MyMovieList" target="_blank">MyMovieList</a></li>
-                <li><strong>Description:</strong> The goal of this project was to create a web application similar to MyAnimeList or Letterboxd, where user can have a profile filled with movie titles and their ratings for each title. This project takes my experience from 'PernTodo' and 'JWT with PERN' and moves to a whole new level by combining their features and adding many more on top of it. I used datasets from Kaggle to populate a table in my database and used this database of available movies for the user to choose from and add to their respective list. I also added react-suggestion to create the drop-down list logic that is used on the application.
-                </li>
-                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/KCK0WYy.gif" alt="OCR Translator Web in use" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/OCRtranslatorWeb">OCR Translator Web</a></h4>
+      <p>Extracts text from an image and translates it into another language through a browser interface.</p>
+      <p class="stack">Tesseract OCR &middot; OpenCV &middot; Azure AI Translator</p>
+      <div class="links"><a href="https://github.com/pedromussi1/OCRtranslatorWeb">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=q-6X0WgZy_E" target="_blank">
-                <img src="https://i.imgur.com/zVmAeqo.gif" alt="EmailSpam" width="480 px">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/EmailSpam" target="_blank">Email Classification System</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/EmailSpam" target="_blank">EmailSpam</a></li>
-                <li><strong>Description:</strong> The goal of this project is to develop an email classification system that can automatically classify emails as either "spam" or "ham" (non-spam). This system will help users manage their email inbox more efficiently by automatically filtering out unwanted spam emails.
-                </li>
-                <li><strong>Tools:</strong> Python, Pandas, sklearn, NLTK, Matplotlib, Seaborn, NumPy</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/364Z23k.gif" alt="VolumeCV controlling system volume with hand gestures" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/VolumeCV">VolumeCV</a></h4>
+      <p>Controls computer audio volume through hand gestures on a webcam, using landmark positions between fingers to set the level.</p>
+      <p class="stack">Python &middot; MediaPipe &middot; OpenCV</p>
+      <div class="links"><a href="https://github.com/pedromussi1/VolumeCV">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=9N2W9QBaXfw" target="_blank">
-                <img src="https://img.youtube.com/vi/9N2W9QBaXfw/0.jpg" alt="PernTodo">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/PernTodo" target="_blank">PernTodo</a></li>
-                <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer. I designed and implemented the database schemas using PostgreSQL. I developed the logic on the server side and APIs using Express.js and Node.js. Created a responsive interface using React. And built a cohesive web application integrating the frontend and backend components.</li>
-                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, Visual Studio Code</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/h7dbXn8.gif" alt="FingerCounter counting raised fingers" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/FingerCounter">FingerCounter</a></h4>
+      <p>Counts how many fingers are raised on a webcam feed by analysing hand landmark coordinates in real time.</p>
+      <p class="stack">Python &middot; MediaPipe &middot; OpenCV</p>
+      <div class="links"><a href="https://github.com/pedromussi1/FingerCounter">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=lOLUN-cHrbg" target="_blank">
-                <img src="https://img.youtube.com/vi/lOLUN-cHrbg/0.jpg" alt="JWT">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/JWT" target="_blank">JWT with PERN</a></li>
-                <li><strong>Description:</strong> This website was created to showcase my skills as a PERN developer along with using JSON Web Tokens to provide authentication and authorization for user logins. I designed and implemented the database schemas using PostgreSQL. JWT was used to secure web APIs. When a user logs in, the server verifies the user's credentials. If they are valid, the server generates a JWT containing a set of claims and signs it using a secret key. The server sends this JWT back to the client. The client stores this token in the browser's local storage. For further requests to protected resources, the client sends the JWT in the request header. The server verifies the JWT's signature to ensure it hasn't been tampered with. If the verification is successful, the server processes the request. The server checks the claims in the JWT to determine whether the user is authorized to access the requested resource. The server sends back the requested data or performs the requested action.</li>
-                <li><strong>Tools:</strong> PostgreSQL, Express.js, React, Node.js, JSON Web Token, Visual Studio Code</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/TCAQEac.gif" alt="OCRtranslator command line tool running" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/OCRtranslator">OCRtranslator</a></h4>
+      <p>Command line tool that reads text from an image and translates it. Runs fully offline with no API keys or quotas.</p>
+      <p class="stack">Python &middot; Tesseract OCR &middot; Azure AI Translator</p>
+      <div class="links"><a href="https://github.com/pedromussi1/OCRtranslator">Source</a></div>
+    </div>
 
-        <h2>Gaming Projects</h2>
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=wSi-ISIEWBs" target="_blank">
-                <img src="https://img.youtube.com/vi/wSi-ISIEWBs/0.jpg" alt="UnderThawed">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/Underthawed" target="_blank">UnderThawed</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/Underthawed" target="_blank">UnderThawed</a></li>
-                <li><strong>Description:</strong> Complete as many dishes for the customers as you can before the timer goes off! This game was created on Unity3D, taking inspiration from Code Monkeys' Youtube video.</li>
-                <li><strong>Tools:</strong> C#, Blender, Unity3D</li>
-                <li><strong>Future Developments:</strong> Develop an online multiplayer option to the game that uses Netcode for Game Objects</li>
-            </ul>
-        </div>
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/gZxakIi.png" alt="OCRbookFinder command line tool output" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/OCRbookFinder">OCRbookFinder</a></h4>
+      <p>Command line tool that identifies a book from a photo of its cover: OCR the title and author, search a book database, then rank the candidates.</p>
+      <p class="stack">Python &middot; Tesseract OCR &middot; Google Books API</p>
+      <div class="links"><a href="https://github.com/pedromussi1/OCRbookFinder">Source</a></div>
+    </div>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=wtw1QMQUFRQ" target="_blank">
-                <img src="https://img.youtube.com/vi/wtw1QMQUFRQ/0.jpg" alt="PuzzleSolver">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/PuzzleSolver" target="_blank">PuzzleSolver</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/PuzzleSolver" target="_blank">PuzzleSolver</a></li>
-                <li><strong>Description:</strong> This is a three-dimensional puzzle game based on increased levels of mechanics and difficulty as the player progresses, acquiring new skills and following tips will help the player move to the next level.</li>
-                <li><strong>Tools:</strong> C#, Blender, Unity3D</li>
-            </ul>
-        </div>
+  </div>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=BVd8ceOzIzk" target="_blank">
-                <img src="https://img.youtube.com/vi/BVd8ceOzIzk/0.jpg" alt="ZombieGame">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/ZombieGame" target="_blank">ZombieGame</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/ZombieGame" target="_blank">ZombieGame</a></li>
-                <li><strong>Description:</strong> The player is given a gun and they must survive the zombie attack. There are 3 waves of zombies, each wave is harder than the last. Can you kill all the zombies and survive until the end?</li>
-                <li><strong>Tools:</strong> C++, Blueprints, Unreal Engine 5</li>
-            </ul>
-        </div>
+  <h2>Tools and apps</h2>
 
-        <div class="project">
-            <a href="https://www.youtube.com/watch?v=RmglLZSRwH8" target="_blank">
-                <img src="https://img.youtube.com/vi/RmglLZSRwH8/0.jpg" alt="TargetChaser">
-            </a>
-            <h3><a href="https://github.com/pedromussi1/TargetChaser" target="_blank">TargetChaser</a></h3>
-            <ul>
-                <li><strong>Repository:</strong> <a href="https://github.com/pedromussi1/TargetChaser" target="_blank">TargetChaser</a></li>
-                <li><strong>Description:</strong> Hit all targets around the island before the timer goes off! This game was developed on Unreal Engine 5.</li>
-                <li><strong>Tools:</strong> C++, Blueprints, Unreal Engine 5</li>
-            </ul>
-        </div>
-    </section>
+  <div class="grid">
+
+    <div class="card">
+      <figure class="shot"><img src="https://i.imgur.com/17u4RQ6.gif" data-alt="https://i.imgur.com/17u4RQ6.png https://i.imgur.com/17u4RQ6.jpeg" alt="CSVWizard editing a CSV file in the browser" loading="lazy"></figure>
+      <h4><a href="https://csv-wizard-pedromussi1s-projects.vercel.app/">CSVWizard</a></h4>
+      <p>A CSV and TSV viewer, editor, and converter that runs fully client-side. Automatic delimiter detection, sorting, global filtering, and inline cell editing, with row virtualization so large files stay responsive. Exports to CSV, TSV, JSON, SQL, and XML.</p>
+      <p class="stack">Next.js 16 &middot; TypeScript &middot; Tailwind CSS &middot; Vercel</p>
+      <div class="links">
+        <a href="https://csv-wizard-pedromussi1s-projects.vercel.app/">Live</a>
+        <a href="https://github.com/pedromussi1/CSVWizard">Source</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <figure class="shot"><img src="https://raw.githubusercontent.com/pedromussi1/DropApin/main/docs/screenshot.png" alt="DropApin showing a dropped pin and the route back to it" loading="lazy"></figure>
+      <h4><a href="https://github.com/pedromussi1/DropApin">DropApin</a></h4>
+      <p>Drop a pin, walk away, find your way back. An iOS app that marks your GPS location and routes you back to it on foot, by car, or by transit, with shareable Apple Maps links.</p>
+      <p class="stack">Swift &middot; SwiftUI &middot; MapKit &middot; CoreLocation &middot; MKDirections</p>
+      <div class="links"><a href="https://github.com/pedromussi1/DropApin">Source</a></div>
+    </div>
+
+  </div>
+
+  <h2>Background</h2>
+
+  <div class="bg-row">
+    <div class="bg-when">2026 &ndash; 2027</div>
+    <div class="bg-what"><b>M.S. Artificial Intelligence</b>University of South Florida. Graduating December 2027.</div>
+  </div>
+  <div class="bg-row">
+    <div class="bg-when">2019 &ndash; 2023</div>
+    <div class="bg-what"><b>B.S. Computer Science</b>University of South Florida.</div>
+  </div>
+  <div class="bg-row">
+    <div class="bg-when">2026 &ndash; now</div>
+    <div class="bg-what"><b>AI Trainer, Handshake AI</b>Authoring and evaluating the prompt and response data used in LLM post-training.</div>
+  </div>
+  <div class="bg-row">
+    <div class="bg-when">2025</div>
+    <div class="bg-what"><b>AI Tutor, xAI</b>Evaluated Grok across image and video generation, audio description, and deep search. Documented reproducible edge cases for research teams.</div>
+  </div>
+  <div class="bg-row">
+    <div class="bg-when">2024 &ndash; 2025</div>
+    <div class="bg-what"><b>AI Tutor, Outlier.ai</b>Tutoring data and error analysis across code and mathematics tasks.</div>
+  </div>
+
+  <p class="more">
+    Microsoft Certified: Azure AI Engineer Associate, Azure AI Fundamentals, Azure Data Fundamentals. Native English and
+    Brazilian Portuguese. Everything else is on <a href="https://github.com/pedromussi1">GitHub</a>.
+  </p>
+
+  <footer>
+    <a href="mailto:pedrorodriguesmussi@gmail.com">pedrorodriguesmussi@gmail.com</a>
+    <a href="https://github.com/pedromussi1">GitHub</a>
+    <a href="https://www.linkedin.com/in/pedro-mussi/">LinkedIn</a>
+  </footer>
+
 </div>
 
-<footer>
-    <h2>Connect with me</h2>
-    <a href="mailto:pedrorodriguesmussi@gmail.com" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/281/281769.png" alt="Gmail" width="32" height="32"></a>
-    <a href="https://github.com/pedromussi1" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" width="32" height="32"></a>
-    <a href="https://www.youtube.com/@pedromussi4769" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" width="32" height="32"></a>
-    <a href="https://www.linkedin.com/in/pedro-mussi" target="_blank"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="LinkedIn" width="32" height="32"></a>
-</footer>
-
-<script src="script.js"></script>
+<script>
+  // If an image fails, try the next URL in data-alt. When none are left, drop the figure
+  // so the page never shows a broken image icon.
+  document.addEventListener('error', function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== 'IMG') return;
+    var next = (img.dataset.alt || '').trim().split(/\s+/).filter(Boolean);
+    if (next.length) {
+      img.dataset.alt = next.slice(1).join(' ');
+      img.src = next[0];
+      return;
+    }
+    var fig = img.closest('.shot');
+    if (fig) fig.remove();
+  }, true);
+</script>
 </body>
 </html>
-
-
-
